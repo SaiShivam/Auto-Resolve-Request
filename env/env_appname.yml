@@ -1,0 +1,14 @@
+channels:
+  - defaults
+dependencies:
+  - python
+  - flask
+  - scikit-learn
+  - pip
+  - pip:
+    - uwsgi
+    - pandas
+    - nltk
+    - Flask-Cors
+    - requests
+    - jsonlib
